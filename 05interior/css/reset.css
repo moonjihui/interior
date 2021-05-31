@@ -1,0 +1,14 @@
+@charset "UTF-8";
+* {margin: 0;padding: 0; box-sizing: border-box;}
+
+ul,li {list-style: none;}
+a{text-decoration: none; color: #444}
+
+.clear_fix::after, .clear_fix::before{
+    content: "";
+    clear: both;
+    display: block;
+}
+#wrap{
+    color: #444
+}
